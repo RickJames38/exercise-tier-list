@@ -1,0 +1,92 @@
+body {
+    font-family: "Roboto Condensed", sans-serif;
+    color: #000000;
+    background-color: #FAF9F6;
+}
+
+h1 {
+    font-family: "Roboto Condensed", sans-serif;
+}
+
+.header ul {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    list-style-type: none;
+    gap: 8px;
+    padding: 8px;
+    word-wrap: break-word;
+    flex-wrap: wrap;
+}
+
+ul {
+    list-style-type: none;
+}
+
+
+a {
+    text-decoration: none;
+    color: #000000;
+    font-weight: bold;
+}
+
+a:hover {
+    background-color: red;
+    color: #FAF9F6;
+    padding: 4px;
+}
+
+.header {
+    background-color: #FAF9F6;
+    border: 6px solid grey;
+    border-bottom: 4px solid grey;
+    padding: 8px;
+    height: auto;
+}
+
+.info {
+    border: 6px solid grey;
+    border-top: 2px solid grey;
+    padding: 8px;
+}
+
+h2 {
+    font-weight: bold;
+    font-size: 24px;
+    margin-bottom: 0;
+}
+
+h3 {
+    font-weight: bold;
+    font-size: 24px;
+    margin: 0;
+}
+
+h4 {
+    font-weight: bold;
+    font-size: 24px;
+    margin: 0;
+}
+
+h5 {
+    font-weight: bold;
+    font-size: 24px;
+    margin: 0;
+}
+
+h6 {
+    font-weight: bold;
+    font-size: 24px;
+    margin: 0;
+}
+
+.footer {
+    text-align: center;
+    background-color: red;
+    color: #FAF9F6;
+    padding: 8px;
+    font-weight: bold;
+    font-size: 26px;
+    margin-top: 33px;
+    margin-bottom: 33px;
+}
